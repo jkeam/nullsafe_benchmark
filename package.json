@@ -1,0 +1,19 @@
+{
+  "name": "nullsafe_benchmark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "lodash": "^4.17.10",
+    "microtime": "^2.1.8",
+    "nullsafe": "^1.1.0",
+    "ramda": "^0.25.0"
+  }
+}
