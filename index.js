@@ -17,14 +17,17 @@ const nullsafePath = ['biggest', 'kitty', 'name'];
 
 const suite = new Benchmark.Suite;
 // test
-suite.add('Lodash', function() {
+suite.add('Lodash#get', function() {
   _.get(pet, lodashPath);
 })
-.add('Ramda', function() {
+.add('Ramda#path', function() {
   R.path(ramdaPath, pet);
 })
-.add('Nullsafe', function() {
+.add('Nullsafe#value', function() {
   nullsafe(pet, nullsafePath).value;
+})
+.add('Nullsafe#rawValue', function() {
+  nullsafe(pet, nullsafePath).rawValue;
 })
 // listeners
 .on('cycle', function(event) {
