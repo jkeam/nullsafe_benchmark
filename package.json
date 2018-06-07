@@ -13,7 +13,7 @@
     "benchmark": "^2.1.4",
     "lodash": "^4.17.10",
     "microtime": "^2.1.8",
-    "nullsafe": "^1.1.0",
+    "nullsafe": "^2.0.0",
     "ramda": "^0.25.0"
   }
 }
