@@ -11,9 +11,9 @@
   "description": "",
   "dependencies": {
     "benchmark": "^2.1.4",
-    "lodash": "^4.17.10",
-    "microtime": "^2.1.8",
-    "nullsafe": "^2.0.0",
-    "ramda": "^0.25.0"
+    "lodash": "^4.17.11",
+    "microtime": "^2.1.9",
+    "nullsafe": "^2.0.2",
+    "ramda": "^0.26.1"
   }
 }
